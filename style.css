@@ -1,0 +1,167 @@
+body {
+    background-image: url(https://wallpapercave.com/wp/wp6389259.jpg);
+    background: no-repeat cover;
+    background-color: #414141;
+    height: 100vh;
+    width: 100%;
+}
+
+.container-header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.72);
+    justify-content: space-between;
+    position: fixed;
+    z-index: 999;
+}
+
+h1 {
+    font-size: 25px;
+    color: white;
+    margin: 29px 0 0 20px;
+}
+
+h1>span {
+    color: #57a3c5;
+}
+
+.header-nav {
+    display: flex;
+    gap: 50px;
+}
+
+.menus ul {
+    display: flex;
+    margin-top: 33px;
+    gap: 25px;
+    font-size: 15px;
+}
+
+.menus ul .link-home {
+    border-bottom: 2px solid #57a3c5;
+    border-radius: 2px;
+}
+
+.menus ul a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.social-icons ul {
+    display: flex;
+    gap: 18px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.div-search {
+    margin-top: 30px;
+    margin-right: 70px;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.div-search i,
+.social-icons ul i,
+.menus ul a {
+    cursor: pointer;
+}
+
+.header-info {
+    width: 70%;
+    height: 327px;
+    background-color: rgba(18, 18, 18, 0.88);
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 240px;
+}
+
+.info-header {
+    padding: 5px 10px;
+    text-align: left;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 50px 0 15px 40px;
+    width: 102px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.info-subtitle {
+    font-size: 40px;
+    color: #fff;
+    flex-wrap: wrap;
+    font-weight: 700;
+    margin: 0 0 15px 40px;
+}
+
+.info-flex {
+    display: flex;
+    gap: 55px;
+}
+
+.info-data {
+    color: #e5e5e5;
+    font-family: 'Lora', sans-serif;
+    font-size: 14px;
+    margin-left: 40px;
+}
+
+.info-paragraph {
+    color: #e5e5e5;
+    font-family: 'Lora', sans-serif;
+    line-height: 20px;
+}
+
+.pagination {
+    position: relative;
+    top: 17rem;
+    margin-left: 40px;
+}
+
+section:nth-of-type(1) {
+    background-color: #414141;
+    position: relative;
+    top: 40rem;
+}
+
+.content {
+    background-color: rgb(255, 255, 255);
+    height: 25vh;
+}
+
+.content>img {
+    width: 100px;
+    margin: 0 auto;
+    height: 10vh;
+    display: flex;
+}
+
+.content h1 {
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
+
+.content p {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.ultimaSection {
+    background-image: url(./assets/ultimasec.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background: center cover;
+    position: relative;
+    top: 40rem;
+}

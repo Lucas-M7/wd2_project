@@ -1,1 +1,1 @@
-# wd2_project
+# Watch Dogs 2 Website Project
